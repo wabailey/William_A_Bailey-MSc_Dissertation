@@ -10,12 +10,16 @@ The repository has been setup with the following folder structure:
 
 ├── _Dissertation
 
-|       └── Will_Bailey-MSc_Dissertation-An_E-Commerce_Website_for_the_Future.pdf
+|        └── Will_Bailey-MSc_Dissertation-An_E-Commerce_Website_for_the_Future.pdf
 
-├── _Appendix
+         ├── _Appendix
+
          ├── _A
-          |       └── Will_Bailey-COM56-Dissertation_Proposal.pdf
+
+         |        └── Will_Bailey-COM56-Dissertation_Proposal.pdf
+
          └── _B
+
                   └── Website_Deliverables.zip
 
 
