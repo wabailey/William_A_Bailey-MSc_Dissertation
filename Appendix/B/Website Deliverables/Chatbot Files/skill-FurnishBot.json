@@ -1,0 +1,1829 @@
+{
+  "name": "FurnishBot",
+  "intents": [
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go off"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "eCommerce_Defer_Payment",
+      "examples": [
+        {
+          "text": "How can avoid late fees?"
+        },
+        {
+          "text": "I am not able to pay my bill this week. can you please extend the bill due date by 1 week"
+        },
+        {
+          "text": "I can't pay my bill on time, can I pay it the week after it's due?"
+        },
+        {
+          "text": "I need to defer my bill payment by 7 days."
+        },
+        {
+          "text": "I would like to extend my payment due date"
+        },
+        {
+          "text": "I'd like to delay this month's payment by a week please."
+        },
+        {
+          "text": "Is there any way that I can defer a payment for my phone? I will be on vacation and won't be able to do it from overseas?"
+        },
+        {
+          "text": "Payment after due date"
+        },
+        {
+          "text": "Please keep power on I can pay you later"
+        },
+        {
+          "text": "Bill extension"
+        },
+        {
+          "text": "Can I ask for a payment deferment?"
+        },
+        {
+          "text": "Can I defer a bill please?"
+        },
+        {
+          "text": "Can I defer the balance on my account?"
+        },
+        {
+          "text": "Can I delay a payment for a couple of days?"
+        },
+        {
+          "text": "Can I pay my bill later than due date?"
+        },
+        {
+          "text": "Can you get payment extension?"
+        },
+        {
+          "text": "Could the due date for my next bill be delayed? I have changed jobs and my old company did not yet pay me?"
+        },
+        {
+          "text": "Hi. my payment due date is't convenient for me. could I change it?"
+        },
+        {
+          "text": "How can I extent the due date of my payments?"
+        },
+        {
+          "text": "How can I postpone making a payment?"
+        }
+      ],
+      "description": "Delay the payment due date for a current bill."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you stupid?"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Can you tell a joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "Can I get a refund when my internet was out for 6 hours?"
+        },
+        {
+          "text": "Can I get my last month refunded due to the contract cancelation?"
+        },
+        {
+          "text": "Can I just have a full refund?"
+        },
+        {
+          "text": "Can you refund all payments?"
+        },
+        {
+          "text": "Do I get a refund if I paid too much?"
+        },
+        {
+          "text": "I am unfairly charged. am I going to be refunded?"
+        },
+        {
+          "text": "I paid my bill twice last month. can you refund my last payment?"
+        },
+        {
+          "text": "I want a refund on the previous purchase I made."
+        },
+        {
+          "text": "I was charged for services that I don't subscribe to. how can I go about getting a refund"
+        },
+        {
+          "text": "I was overcharged on my last bill, I need that refunded."
+        },
+        {
+          "text": "I would like a refund for the service outage last month please."
+        },
+        {
+          "text": "If I cancel some services which have been prepaid, can I receive a refund for part of what has already been paid? what is your refund policy?"
+        },
+        {
+          "text": "Is it possible to refund the latest payment that I made?"
+        },
+        {
+          "text": "My credit card was double charged for my last bill. how do I get the extra charge refunded to it?"
+        },
+        {
+          "text": "My service was interrupted for 5 days. I would like a refund based on the time that the service was unavailable."
+        },
+        {
+          "text": "Refund my payment"
+        },
+        {
+          "text": "Where can I get refunds?"
+        },
+        {
+          "text": "Who do I have to speak to get a refund on one of my payments?"
+        },
+        {
+          "text": "Arrange refund"
+        },
+        {
+          "text": "Can I get a refund on the activation fee?"
+        }
+      ],
+      "description": "Request a refund for a payment."
+    },
+    {
+      "intent": "eCommerce_Dispute",
+      "examples": [
+        {
+          "text": "Why is there an increase in this months bill from last month?"
+        },
+        {
+          "text": "Can you change my bill?"
+        },
+        {
+          "text": "Can you help me understand my bill?"
+        },
+        {
+          "text": "Explain phone bill"
+        },
+        {
+          "text": "How to get a bill corrected?"
+        },
+        {
+          "text": "I don't agree with the charge"
+        },
+        {
+          "text": "I need to readjust my credit card, I am getting endless late fee's despite paying on the due date, I want answers."
+        },
+        {
+          "text": "I need to request an adjustment on my billing statement."
+        },
+        {
+          "text": "I noticed on my bill that I get charged every month for an extra line. I do not have an extra line. can you please check?"
+        },
+        {
+          "text": "I'd like credit for interrupted service."
+        },
+        {
+          "text": "I'm not at all pleased with your data speed and I don't feel like I'm getting my money's worth. so I'd like an adjustment"
+        },
+        {
+          "text": "Need explanation for the settlement of loan against credit card"
+        },
+        {
+          "text": "Please check the output for my last credit card transaction"
+        },
+        {
+          "text": "What are the items on my bill?"
+        },
+        {
+          "text": "What do I do if my bill is wrong?"
+        },
+        {
+          "text": "What is the $5.00 charge related to?"
+        },
+        {
+          "text": "What's a 'restoral fee' and why did you charge me $50.00 for it?"
+        },
+        {
+          "text": "Why late fee?"
+        },
+        {
+          "text": "Why was I charged an administration fee?"
+        },
+        {
+          "text": "Why was I charged multiple times for the same purchase?"
+        }
+      ],
+      "description": "Dispute an issue about a bill."
+    },
+    {
+      "intent": "eCommerce_Past_Payment_Inquiry",
+      "examples": [
+        {
+          "text": "I'd like to check the status of a bill I paid as it has not been credited to my account."
+        },
+        {
+          "text": "I already pay that in this month"
+        },
+        {
+          "text": "How do I review my payments?"
+        },
+        {
+          "text": "How can I know my payment went through?"
+        },
+        {
+          "text": "Have I paid my bill?"
+        },
+        {
+          "text": "Does the payment for july is already done?"
+        },
+        {
+          "text": "Can you tell me if I paid my bill with my credit card?"
+        },
+        {
+          "text": "I want to make sure that a payment was credited to my account. can you verify that?"
+        },
+        {
+          "text": "I want payment information by a device two months ago"
+        },
+        {
+          "text": "I paid my bill but got sent an overdue notice, my bank statement shows it went through so why does it say its overdue?"
+        },
+        {
+          "text": "I need some details about my last month payment."
+        },
+        {
+          "text": "When was this specific payment made?"
+        },
+        {
+          "text": "I can't find my payment"
+        },
+        {
+          "text": "Can I get a payment record for these whole year?"
+        },
+        {
+          "text": "What is the confirmation number for the payment I made on july 4, 2016?"
+        },
+        {
+          "text": "Wanted to make sure my payment was received."
+        },
+        {
+          "text": "Verify payment"
+        },
+        {
+          "text": "Past payment"
+        },
+        {
+          "text": "My bill says I didn't make a payment last month, but I did, can you look into this please?"
+        },
+        {
+          "text": "Indicate payment for the purchase of my device six months ago"
+        }
+      ],
+      "description": "Inquire about payments made in the past."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "Where I can order?"
+        },
+        {
+          "text": "place an order"
+        },
+        {
+          "text": "Can I order some products?"
+        },
+        {
+          "text": "Help me to create a new order"
+        },
+        {
+          "text": "How do I go about placing an order with you?"
+        },
+        {
+          "text": "I am ready to order now."
+        },
+        {
+          "text": "I want to reorder"
+        },
+        {
+          "text": "Make the order again"
+        },
+        {
+          "text": "Ok order this for me"
+        },
+        {
+          "text": "Purchase something new"
+        },
+        {
+          "text": "What are the methods to place an order?"
+        },
+        {
+          "text": "Can I place an order?"
+        }
+      ],
+      "description": "Place an order."
+    },
+    {
+      "intent": "eCommerce_Recurring_Payment_Autopay",
+      "examples": [
+        {
+          "text": "Automatically pay bills"
+        },
+        {
+          "text": "I'd like to setup autopay please."
+        },
+        {
+          "text": "I would like to set up monthly payments"
+        },
+        {
+          "text": "I would like to change the account my automatic payment is drawn from please?"
+        },
+        {
+          "text": "I want to know how to set up automatic payments"
+        },
+        {
+          "text": "I want to activate auto payments"
+        },
+        {
+          "text": "I need to make changes to my automatic payments for my account."
+        },
+        {
+          "text": "How to cancel my card automated payments?"
+        },
+        {
+          "text": "How do I turn auto pay on?"
+        },
+        {
+          "text": "How do I sign up for autopay?"
+        },
+        {
+          "text": "How do I sign up for auto on line bill payment?"
+        },
+        {
+          "text": "How do I set up direct debit?"
+        },
+        {
+          "text": "How can I change my recurring payment?"
+        },
+        {
+          "text": "Hi, how can I set up the automated monthly payments?"
+        },
+        {
+          "text": "Do you offer automatic payment set-up?"
+        },
+        {
+          "text": "Can you help me cancel the autopay?"
+        },
+        {
+          "text": "Can I make a payment now and have it be recurring?"
+        },
+        {
+          "text": "Can I change my plan to auto pay?"
+        },
+        {
+          "text": "Manage autopay"
+        },
+        {
+          "text": "Auto bill pay"
+        }
+      ],
+      "description": "Start making automatic recurring payments."
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        },
+        {
+          "text": "I've bought an keyboard and id like to cancel it"
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "How can I cancel my order of your extended data service?"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "eCommerce_Balance_Inquiry",
+      "examples": [
+        {
+          "text": "Can I check my data balance?"
+        },
+        {
+          "text": "Can I see my account balance?"
+        },
+        {
+          "text": "Can you assist me to check my balance?"
+        },
+        {
+          "text": "Can you help me check my balance?"
+        },
+        {
+          "text": "Can you tell me how much my bill is for this month, I think it is going to be expensive?"
+        },
+        {
+          "text": "Can you tell me my current balance please?"
+        },
+        {
+          "text": "Current bill amount"
+        },
+        {
+          "text": "Give me the amount due"
+        },
+        {
+          "text": "Hello. I want to know how much I have to pay this month"
+        },
+        {
+          "text": "How much is my next payment?"
+        },
+        {
+          "text": "I want to ask about my account balance"
+        },
+        {
+          "text": "I would like to check how much my bill is please thank you"
+        },
+        {
+          "text": "I'd like to find out how much I owe"
+        },
+        {
+          "text": "Show balance"
+        },
+        {
+          "text": "What is my current outstanding?"
+        },
+        {
+          "text": "What is my full balance?"
+        },
+        {
+          "text": "What is the remaining balance?"
+        },
+        {
+          "text": "What was my account balance as of june 1st, 2016?"
+        },
+        {
+          "text": "What's my balance?"
+        },
+        {
+          "text": "Yes, I want to check my balance"
+        }
+      ],
+      "description": "Inquire about an account balance."
+    },
+    {
+      "intent": "eCommerce_Statements",
+      "examples": [
+        {
+          "text": "What was my last bill?"
+        },
+        {
+          "text": "Can I check my bill?"
+        },
+        {
+          "text": "Can I get another copy of my bill?"
+        },
+        {
+          "text": "Can I request credit card statement right from this chat window?"
+        },
+        {
+          "text": "Could you please send a print out of my late statement?"
+        },
+        {
+          "text": "Help me find my bill"
+        },
+        {
+          "text": "How can I save statements of credit card?"
+        },
+        {
+          "text": "How do I get a previous month's bill?"
+        },
+        {
+          "text": "How do I view my e-bill?"
+        },
+        {
+          "text": "I need to know more about my paper statements that I receive at home"
+        },
+        {
+          "text": "I seem to have misplaced my most recent billing statement and would appreciate if you sent me a replacement one."
+        },
+        {
+          "text": "I wanna see my bill"
+        },
+        {
+          "text": "I want a copy of the bill from last month"
+        },
+        {
+          "text": "I want a physical copy of credit card history"
+        },
+        {
+          "text": "I want to request a credit card statement"
+        },
+        {
+          "text": "Is there any sort of extra fee for paper invoices?"
+        },
+        {
+          "text": "My bank statement shows an unexpected payment to you so I would like a copy of my latest billing statement."
+        },
+        {
+          "text": "Show my bill"
+        },
+        {
+          "text": "What are my bills details?"
+        },
+        {
+          "text": "What are the steps for checking credit card statement for particular duration?"
+        }
+      ],
+      "description": "Request a billing statement."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "eCommerce_Payment_Due_Date",
+      "examples": [
+        {
+          "text": "On what day is my cellphone payment due?"
+        },
+        {
+          "text": "Statement due"
+        },
+        {
+          "text": "What day do I have to make my payment by?"
+        },
+        {
+          "text": "When due?"
+        },
+        {
+          "text": "When is my current amount due?"
+        },
+        {
+          "text": "When is my current bill pay date?"
+        },
+        {
+          "text": "When is my payment due by?"
+        },
+        {
+          "text": "When is the day for paying the bils?"
+        },
+        {
+          "text": "Can you remind me when is my payment due day?"
+        },
+        {
+          "text": "Could you pls advise on due date of my bill?"
+        },
+        {
+          "text": "Date of payment"
+        },
+        {
+          "text": "How can I check when my monthly payment is due?"
+        },
+        {
+          "text": "When is the next payment date?"
+        },
+        {
+          "text": "When will be my next day of payment?"
+        },
+        {
+          "text": "Which is the deadline for the settlement of my bills?"
+        },
+        {
+          "text": "I need to know the due date for my phone bill"
+        },
+        {
+          "text": "I wonder what is my payment date?"
+        },
+        {
+          "text": "I would like to know the due date of my bill"
+        },
+        {
+          "text": "Is there any grace period with due dates?"
+        },
+        {
+          "text": "Next billing due"
+        }
+      ],
+      "description": "Inquire about when the next payment is due."
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I want to edit an order"
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "I ordered a new phone today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to amend the order I placed yesterday please"
+        },
+        {
+          "text": "How do I change the phone that I ordered?"
+        },
+        {
+          "text": "How can I chance my order?"
+        },
+        {
+          "text": "Hey I would like to change the delivery date on my order please"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "Can you help me modify the order that I just placed?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can I change the number on the order from three to four?"
+        },
+        {
+          "text": "Can I change my order for a new device?"
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "I would like to modify an order I made."
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "I want to modify an order made"
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "eCommerce_Make_A_Payment",
+      "examples": [
+        {
+          "text": "Bugger me I wanna pay me bill"
+        },
+        {
+          "text": "Want to pay"
+        },
+        {
+          "text": "Schedule payment"
+        },
+        {
+          "text": "Right now, I am in a different city and how to make cash payment as today is the due date"
+        },
+        {
+          "text": "Request bill pay"
+        },
+        {
+          "text": "Pay my account"
+        },
+        {
+          "text": "I'd like to pay"
+        },
+        {
+          "text": "I would like to ask a question about making a payment."
+        },
+        {
+          "text": "I want to pay my bill with a credit card"
+        },
+        {
+          "text": "I want to make payment"
+        },
+        {
+          "text": "I want to make a one time payment and enter my debit card payment information"
+        },
+        {
+          "text": "I think I'm gonna pay the bill"
+        },
+        {
+          "text": "I need to schedule a payment"
+        },
+        {
+          "text": "I need to pay the cost of my service plan"
+        },
+        {
+          "text": "I also want to make a payment when I have you here on chat"
+        },
+        {
+          "text": "How can I pay off my balance?"
+        },
+        {
+          "text": "Handle payment?"
+        },
+        {
+          "text": "Can you assist me with paying my bill?"
+        },
+        {
+          "text": "Can I pay my bill?"
+        },
+        {
+          "text": "Can I do a bill payment?"
+        }
+      ],
+      "description": "Make a payment."
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "Yes it was attempted for delivery but it says the parcel was refused though we were in the flat"
+        },
+        {
+          "text": "Yes I want to track my order"
+        },
+        {
+          "text": "Where is my order?"
+        },
+        {
+          "text": "Can I check on my order?"
+        },
+        {
+          "text": "Can you track the whereabouts of this sim I ordered?"
+        },
+        {
+          "text": "Expected to ship"
+        },
+        {
+          "text": "Has my new phone shipped yet?"
+        },
+        {
+          "text": "Has the order been dispatched yet?"
+        },
+        {
+          "text": "How do I track my shipment?"
+        },
+        {
+          "text": "How soon can we expect the new shipment of iphone 7 that was pre ordered last week?"
+        },
+        {
+          "text": "I purchased an item the other day and still haven't received an update about it, have you shipped it yet?"
+        },
+        {
+          "text": "I want a status report on an order I made last week."
+        },
+        {
+          "text": "I was just wondering if I could check the status of an order I made."
+        },
+        {
+          "text": "I would like to check the status of an order I placed recently."
+        },
+        {
+          "text": "Order progress"
+        },
+        {
+          "text": "Please, can you tell me about the status of an orden I made?"
+        },
+        {
+          "text": "Shipping status"
+        },
+        {
+          "text": "Tracking number"
+        },
+        {
+          "text": "What state you are in with my current order?"
+        },
+        {
+          "text": "When is my new phone supposed to arrive?"
+        }
+      ],
+      "description": "Request status of an order that has been placed."
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "Update card"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "Pay by email"
+        },
+        {
+          "text": "Morning, can you tell me by what methods I can settle my monthly bill?"
+        },
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "I need to add a new payment card"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "Hi, can I pay for the service by paypal?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Direct transfer"
+        },
+        {
+          "text": "Change payment setup"
+        },
+        {
+          "text": "Do you take discover?"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        }
+      ],
+      "description": "Request a human agent."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "product_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Carver Armchair",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "furniture_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "wardrobe",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "14525cfc-5f8c-4121-9f9d-44759447c63b",
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "I have added the product to your order, do you want to complete checkout now?",
+            "options": [
+              {
+                "label": "Yes, checkout",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "No, continue shopping",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1565884746556",
+      "conditions": "@product_name",
+      "dialog_node": "node_1_1565885029432"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "What is the name of the product you would like to order?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1565885029432"
+      },
+      "conditions": "#eCommerce_Create_Product_Order",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1565884746556",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. Can you try rephrasing?",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning.",
+            "Sorry I didn't understand that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1565884746556"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. How can I help you?",
+            "Hi. What can I help you with?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#General_Greetings ||  welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "14525cfc-5f8c-4121-9f9d-44759447c63b",
+  "counterexamples": [],
+  "system_settings": {
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
